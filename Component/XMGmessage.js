@@ -1,9 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -12,15 +6,17 @@ import {
   View
 } from 'react-native';
 
-import Main from './Component/XMGMain';
 
-export default class newsDemo extends Component {
-  render() {
-    return (
-      <Main></Main>
-    );
-  }
+export default class Message extends Component{
+	render(){
+		return (
+			<View>
+				<Text>Message</Text>
+			</View>
+		);
+	}
 }
+
 
 const styles = StyleSheet.create({
   container: {
@@ -40,5 +36,3 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
-
-AppRegistry.registerComponent('newsDemo', () => newsDemo);
