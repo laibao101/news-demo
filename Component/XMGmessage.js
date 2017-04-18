@@ -11,7 +11,7 @@ export default class Message extends Component{
 	render(){
 		return (
 			<View>
-				<Text>Message</Text>
+				<Text>Message!</Text>
 			</View>
 		);
 	}
