@@ -9,6 +9,11 @@ import {
 } from 'react-native';
 
 
+import Home from './XMGHome';
+import Find from './XMGFind';
+import Message from './XMGMessage';
+import Mine from './XMGMine';
+
 export default class Main extends Component{
 	render(){
 		return (

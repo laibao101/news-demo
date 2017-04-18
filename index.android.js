@@ -17,7 +17,7 @@ import Main from './Component/XMGMain';
 export default class newsDemo extends Component {
   render() {
     return (
-      <Main></Main>
+      <Text>12121</Text>
     );
   }
 }
